@@ -41,7 +41,7 @@ const DetailProduct = ({ productDetail }) => {
             price: productDetail?.price,
 
         });
-        toast.success(`${quantity} products added to whishlist successfully!`)
+        toast.success(`Product added to whishlist successfully!`)
     }
 
     return (
